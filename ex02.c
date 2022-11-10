@@ -1,4 +1,10 @@
+/*2. Escrever um programa que leia uma matriz, seus elementos e sua dimensão. Em 
+seguida, o programa deve:
+a) Solicitar ao usuário o índice de uma linha (l) e um valor constante (c);
+b) Multiplicar todos elementos da linha l por c;
+c) Imprimir a matriz resultante.*/
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     int li,co,i,j,c=0,l;
@@ -29,6 +35,6 @@ int main(){
         }
         printf("\n");
     }
-    
+    system("PAUSE");
     return 0;
 }
