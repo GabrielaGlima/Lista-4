@@ -5,7 +5,7 @@ o valor da posição.
 • Após a leitura o programa deve imprimir a matriz na tela.*/
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 2
+#define TAM 5
 
 int main(){
     int m[TAM][TAM],i,j;
